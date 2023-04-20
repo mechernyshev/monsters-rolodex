@@ -15,6 +15,7 @@ const App = () => {
     console.log(searchField)
 
     // use empty dependencies array for running only once
+    // new comment
     useEffect(() => {
         console.log('Fetching monsters data, Effect fired')
         fetch('https://jsonplaceholder.typicode.com/users')
